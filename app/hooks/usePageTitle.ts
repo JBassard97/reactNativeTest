@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import { useNavigation } from "expo-router";
 
-export function usePageTitle(title: string) {
+export default function usePageTitle(title: string) {
     const navigation = useNavigation();
 
     useEffect(() => {

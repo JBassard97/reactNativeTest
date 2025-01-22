@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { ScrollView, Text, View, Image, TextInput } from "react-native";
-import { usePageTitle } from "./hooks/usePageTitle";
+import usePageTitle from "./hooks/usePageTitle";
 
 export default function About() {
   usePageTitle("About - My App");
